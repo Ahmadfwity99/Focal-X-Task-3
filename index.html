@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Character encoding for the document -->
+    <meta charset="UTF-8">
+    <!-- Responsive design meta tag to ensure proper scaling on different devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmad Fwity Portfolio | Task 3</title>
+
+    <!-- Google Fonts: Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome Icons for social and UI icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+
+    <!-- Linking external CSS file for custom styles -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <!-- Header section containing navigation and hero section -->
+    <header>
+        <!-- Desktop Navigation Bar -->
+        <nav class="nav-bar-1 flex-between">
+            <!-- Website Logo or Title -->
+            <a href="index.html" class="nav-title">Ahmad Fwity</a>
+            <!-- Navigation Links -->
+            <ul class="nav-links flex-evenly">
+                <li><a href="#portfolio" class="link">Portfolio</a></li>
+                <li><a href="#about" class="link">About</a></li>
+                <li><a href="#contact" class="link">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- Responsive Navigation Bar for mobile view -->
+        <nav class="nav-bar-2 flex-between">
+            <a href="index.html" class="nav-title">Ahmad Fwity</a>
+            <!-- Hamburger menu icon for mobile nav -->
+            <label for="btn"><i class="fa-solid fa-bars"></i></label>
+            <input type="checkbox" id="btn" class="btn">
+            <!-- Navigation links for mobile -->
+            <ul class="nav-links flex-col-evenly">
+                <li><a href="#portfolio" class="link">Portfolio</a></li>
+                <li><a href="#about" class="link">About</a></li>
+                <li><a href="#contact" class="link">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- Hero Section: Introduction and image -->
+        <section class="hero flex-col-around">
+            <div class="photo">
+                <!-- Avatar Image -->
+                <img class="hero-avatar" src="./assets/images/Avatar.png" alt="avatar">
+            </div>
+            <div class="section-text flex-col-evenly">
+                <!-- Main title (Name) -->
+                <h2 class="section-title">Ahmad Fwity</h2>
+                <!-- Decorative star icon -->
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <!-- Description or title of the individual -->
+                <p>Frontend Web Developer - ITE Student - Electrical Engineer</p>
+            </div>
+        </section>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Portfolio Section -->
+        <section class="portfolio flex-col-center" id="portfolio">
+            <div class="continer flex-col-evenly">
+                <div class="white-section-text flex-col-evenly">
+                    <!-- Portfolio Section Title -->
+                    <h2 class="wh-section-title">Portfolio</h2>
+                    <!-- Decorative star icon -->
+                    <div class="dark-star">
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+
+                <!-- Portfolio Items as Cards -->
+                <div class="portfolio-cards flex-evenly">
+                    <!-- Each card represents a skill or technology -->
+                    <div class="card one">
+                        <img src="./assets/images/c++.png" alt="c++ logo">
+                    </div>
+                    <div class="card two">
+                        <img src="./assets/images/html.png" alt="html logo">
+                    </div>
+                    <div class="card three">
+                        <img src="./assets/images/css.png" alt="css logo">
+                    </div>
+                    <div class="card four">
+                        <img src="./assets/images/js.png" alt="javascript logo">
+                    </div>
+                    <div class="card five">
+                        <img src="./assets/images/bootstrap.png" alt="bootstrap logo">
+                    </div>
+                    <div class="card six">
+                        <img src="./assets/images/git.png" alt="git logo">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about" id="about">
+            <div class="container flex-col-evenly">
+                <div class="section-text flex-col-evenly">
+                    <!-- About Section Title -->
+                    <h2 class="-section-title">About</h2>
+                    <!-- Decorative star icon -->
+                    <div class="-star">
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+
+                <!-- Description about skills and background -->
+                <div class="about-text flex-evenly">
+                    <!-- First paragraph -->
+                    <p class="text">I'm a passionate Junior Front-End Developer with expertise in HTML, CSS, and
+                        JavaScript, focusing on responsive design and accessibility. I have a solid understanding of
+                        semantic markup, ES6+ JavaScript features, and frameworks like React (in progress) and
+                        Bootstrap. I’m committed to writing clean, efficient code and thrive in remote teams. Always
+                        eager to learn, I stay updated on industry trends and continuously improve my skills. Currently,
+                        I’m pursuing my education at the Syrian Virtual University.</p>
+                    <!-- Second paragraph -->
+                    <p class="text">I can assist you by building responsive and accessible websites, using his expertise
+                        in front-end development. He is skilled in technologies like HTML, CSS, and JavaScript, and can
+                        help structure semantic web pages, create engaging user interfaces, and implement animations.
+                        With experience in frameworks like Bootstrap and his ongoing learning in React, Ahmad can also
+                        contribute to modern web applications. His collaborative approach makes him a strong asset in
+                        team-based projects, especially in remote settings.</p>
+                </div>
+
+                <!-- Download button -->
+                <button class="download flex-evenly" type="button"><i class="fa-solid fa-download"></i>Free
+                    Download</button>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact" id="contact">
+            <div class="container flex-col-evenly">
+                <div class="white-section-text flex-col-evenly">
+                    <!-- Contact Section Title -->
+                    <h2 class="wh-section-title">Contact</h2>
+                    <!-- Decorative star icon -->
+                    <div class="dark-star">
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="form">
+                    <form class="flex-col-evenly" action="#">
+                        <!-- Full name input -->
+                        <input type="text" placeholder="Full name" id="full-name" required>
+                        <!-- Email input -->
+                        <input type="email" placeholder="Email address" id="email" required>
+                        <!-- Phone number input -->
+                        <input type="tel" placeholder="Phone number" id="number" required>
+                        <!-- Message text area -->
+                        <textarea placeholder="Write a message" id="message"></textarea>
+                        <!-- Send button -->
+                        <input type="submit" value="Send" class="send">
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Additional Info Section -->
+        <section class="info flex-evenly">
+            <div class="info-box flex-col-evenly">
+                <!-- Location Information -->
+                <h3 class="info-title">Location</h3>
+                <p class="info-text">Latakia, Syria.</p>
+            </div>
+
+            <div class="info-box flex-col-evenly">
+                <!-- Social Media Links -->
+                <h3 class="info-title">Around The Web</h3>
+                <div class="info-links flex-evenly">
+                    <!-- Facebook -->
+                    <a href="https://www.facebook.com/ahmad.fwity" target="_blank" class="flex-center"><i
+                            class="fa-brands fa-facebook-f"></i></a>
+                    <!-- Twitter -->
+                    <a href="#" class="flex-center"><i class="fa-brands fa-twitter"></i></a>
+                    <!-- LinkedIn -->
+                    <a href="https://www.linkedin.com/in/ahmad-fwity/" target="_blank" class="flex-center"><i
+                            class="fa-brands fa-linkedin-in"></i></a>
+                    <!-- Dribbble -->
+                    <a href="#" class="flex-center"><i class="fa-brands fa-dribbble"></i></a>
+                </div>
+            </div>
+
+            <div class="info-box flex-col-evenly">
+                <!-- Freelancer Profile Information -->
+                <h3 class="info-title">About Freelancer</h3>
+                <p class="info-text">
+                    Visit My Profile from <a class="kh" href="https://khamsat.com/user/ahmad_fw"
+                        target="_blank">here.</a>
+                </p>
+            </div>
+        </section>
+
+        <!-- Footer Section -->
+        <footer class="flex-center">
+            <!-- Copyright Text -->
+            <p>Copy Rights &copy; <a href="index.html" target="_blank">Ahmad Fwity</a></p>
+        </footer>
+    </main>
+</body>
+
+</html>
